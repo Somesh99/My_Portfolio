@@ -794,7 +794,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(mob2.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(mob2.jpg);
          /*Add another image link according to phone*/
     }
     .header-text{
@@ -810,7 +810,7 @@ nav .fas{
         position: fixed;
         /* position: absolute; */
         font-size: 25px;
-        left: 335px;
+        left: 328px;
         top: 25px;
     }
     nav ul{
@@ -821,7 +821,7 @@ nav .fas{
         width: 200px;
         height: 100vh;
         padding-top: 50px ;
-        z-index: 2;
+        z-index: 1;
         transition: right 0.5s;
         text-align: center;
     }
@@ -837,9 +837,10 @@ nav .fas{
     }
 
     .title{
-        font-size: 20px;
+        font-size: 15.5px;
         top: 3%;
         left: 7%;
+        z-index: 1;
     }
     .container21 h2{
         position: absolute;
@@ -911,7 +912,7 @@ nav .fas{
         height: 5px;
         border-radius: 5px;
         margin: 14px;
-        margin-left: 40px;
+        margin-left: 20px;
         padding: 1px;
     
     }
