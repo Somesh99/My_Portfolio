@@ -794,7 +794,8 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        /* background-image: url(images/----);  Add another image link according to phone*/
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(mob2.jpg);
+         /*Add another image link according to phone*/
     }
     .header-text{
         margin-top: 100%;
@@ -837,31 +838,33 @@ nav .fas{
 
     .title{
         font-size: 20px;
+        top: 3%;
+        left: 7%;
     }
     .container21 h2{
         position: absolute;
-        top: 45%;
-        left: 18%;
-        font-size: 30px;
-        font-weight: 300;
+        top: 30%;
+        left: 20%;
+        font-size: 25px;
+        font-weight: 150;
         letter-spacing: 0.5px;
     }
     .container21 h3{
         position: absolute;
-        top: 54%;
-        left: 16%;
+        top: 36.5%;
+        left: 13%;
         font-size: 35px;
         font-weight: 400;
         letter-spacing: 0.5px;
     }
     .container21 h1{
         position: absolute;
-        font-size: 25px;
-        font-weight: 500;
+        font-size: 20px;
+        font-weight: 550;
         letter-spacing: 0.5px;
         color:rgb(230, 151, 151);
-        top:65%;
-        left:18%;
+        top:44%;
+        left:16.5%;
 
     }
     .sub-title{
@@ -884,7 +887,7 @@ nav .fas{
     }
     .about-col-1 img{
         width: 65%;
-        height: 45vh;
+        height: 35vh;
         border-radius: 15px;
         margin-left: 40px;
         margin-top: 140px;
@@ -944,7 +947,7 @@ nav .fas{
         font-size: 30px;
         font-weight: 600;
         padding: 30px;
-        margin-left: 50px;
+        margin-left: 10px;
     }
 
     /* ###### test ###### */
