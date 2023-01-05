@@ -631,8 +631,8 @@ nav ul li a:hover::after{
     z-index: 0;
  }
  .testimonial .image{
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
     object-fit: cover;
     border-radius: 50%;
     
@@ -644,7 +644,7 @@ nav ul li a:hover::after{
     flex-direction: column;
 }
 .slide p{
-    padding: 0 100px;
+    padding: 15px 100px;
     text-align: center; 
     font-size: 14px;
     font-weight: 500;
@@ -676,7 +676,7 @@ nav ul li a:hover::after{
     width: 40px;
     border-radius: 50%;
     transform: translateY(30px);
-    background-color: rgba(0,0,0,0.1);
+    /* background-color: rgba(0,0,0,0.1); */
 
 }
 .nav-btn::after, .nav-btn::before{
@@ -952,15 +952,69 @@ nav .fas{
     }
 
     /* ###### test ###### */
+
+    .testimonial{
+        position: relative;
+        max-width: 300px;
+        width: 100%;
+        /* color: #fff; */
+        padding: 50px 0;
+        /* row-gap: 30px; */
+        background-color: rgb(230, 151, 151);
+        overflow: hidden;
+        z-index: 0;
+     }
+     .testimonial .image{
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+     }
+    .testimonial .slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     .slide p{
-        padding: 0 20px;
+        /* padding: 15px 100px; */
+        padding: 8px 20px;
+        text-align: center; 
+        font-size: 12px;
+        font-weight: 300;
+        color: #333;
+    }
+    .slide .bx{
+        font-size: 20px;
+        color: #3c0312d4;
+    
+    }
+    .slide .details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .details .name {
+        font-size: 12px;
+        font-weight: 550;
+        color: #333;
+    }
+    .details .job {
+        font-size: 10px;
+        font-weight: 350;
+        color: #333;
     }
     .nav-btn{
         display: none;
+        
     }
-    .testimonial{
-        z-index: 0;
+    .nav-btn::after, .nav-btn::before{
+        display: none;
+        
     }
+     
     /* ###### test ###### */
 
     .contact-left , .contact-right{
