@@ -127,6 +127,7 @@ nav ul li a:hover::after{
     width: 100%;
 
 }
+
 /* ######################################### About ###############################################*/
 
 #about{
@@ -789,7 +790,7 @@ form .btn2{
 
 
 /* ####################################### CSS for small devices ################################ */
-nav .fas{
+nav .f{
     display: none;
 }
 @media only screen and (max-width: 600px){
@@ -805,7 +806,7 @@ nav .fas{
         font-size: 30px;
     }
     
-    nav .fas{
+    nav .f{
         display: block;
         position: fixed;
         /* position: absolute; */
