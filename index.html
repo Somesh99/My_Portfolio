@@ -160,7 +160,7 @@
 
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
+        <h1 class="sub-title st">My Services</h1>
         <div class="services-list">
             <div>
                 <i class="fa fa-bar-chart" style="font-size:80px"></i>
@@ -268,18 +268,18 @@
                 <img src="images\spotify4.jpg">
                 <div class="layer layer-grp">
                     <h3>Spotify-Songs-Prediction</h3>
-                    <h3><i class="fa-solid fa-user"></i> Somesh-Joshi</h3>
-                    <h3><i class="fa-solid fa-user"></i> Tanisha-Yadav</h3>
+                    <h3 id="pname"><a href="#contact" id="pname-link"><i class="fa-solid fa-user"></a></i> Somesh Joshi</h3>
+                    <h3 id="pname"><i class="fa-solid fa-user"></i> Tanisha Yadav</h3>
                     <p>Using spotify API we scraped the audio features of the songs to predict whether the user(volunteer) will like a song or not</p>
                     <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
                 </div>
             </div>
-            <div class="work">
+            <div class="work work-grp">
                 <img src="images\airline4.jpeg">
-                <div class="layer">
+                <div class="layer layer-grp">
                     <h3>Airline Tweets Sentiment Analysis</h3>
-                    <h3><i class="fa-solid fa-user"></i> Somesh-Joshi</h3>
-                    <h3><i class="fa-solid fa-user"></i> Tanisha-Yadav</h3>
+                    <h3 id="pname"><i class="fa-solid fa-user"></i> Somesh Joshi</h3>
+                    <h3 id="pname"><i class="fa-solid fa-user"></i> Tanisha Yadav</h3>
                     <p>Analysis of reviews of Airlines on twitter in the form of tweets using various NLP techniques. The dataset has been collected from Kaggle</p>
                     <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
                 </div>
@@ -290,7 +290,7 @@
 </div>
 <!-- ################################# Gallery ########################################## -->
 <div id="gallery">
-    <h1>Photo Gallery</h1>
+    <h1 class="sub-title st">Photo Gallery</h1>
     <div class="container">
         <div class="full-img" id="fullImgBox">
             <img src="gallery/img5.jpeg" id="fullImg">
@@ -392,7 +392,7 @@
 
  </script> -->
 <div id="Test">
-<h1>Testimonials</h1>
+<h1 class="sub-title">Testimonials</h1>
 <section class="core">
         <div class="testimonial mySwiper">
             <div class="testi-content swiper-wrapper">
@@ -462,10 +462,10 @@
     <div class="container">
         <div class="row">
             <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-sharp fa-solid fa-location-dot"></i>Indore,Madhya Pradesh, India 452016.</p>
-                <p><i class="fa-sharp fa-solid fa-envelope"></i>someshjoshi1@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i>+91-9575449311</p>
+                <h1 class="sub-title">Contact me</h1>
+                <p class="add"><i class="fa-sharp fa-solid fa-location-dot"></i>Indore,Madhya Pradesh, India 452016.</p>
+                <p class="add"><i class="fa-sharp fa-solid fa-envelope"></i>someshjoshi1@gmail.com</p>
+                <p class="add"><i class="fa-solid fa-phone"></i>+91-9575449311</p>
                 <div class="social-media">
                     <a href=""><i class="fa-brands fa-facebook"></i></a>
                     <a href=""><i class="fa-brands fa-square-instagram"></i></a>
@@ -475,14 +475,14 @@
                     <a href=""><i class="fa-brands fa-hackerrank"></i></a>
                     <a href=""><i class="fa-brands fa-kaggle"></i></a>
                 </div>
-                <a href="images/Resume.txt" Download class="btn btn2"><i class="fa-sharp fa-solid fa-download"></i> Download Resume</a>
+                <a href=" https://somesh99.github.io/Resume/" Download class="btn btn2"><i class="fa-sharp fa-solid fa-download"></i> Download Resume</a>
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2"><i class="fa-solid fa-share"></i> Submit</button>
+                    <button type="submit" class="btn btn2" id="btt3"><i class="fa-solid fa-share"></i> Submit</button>
                 </form>
                 <span id="msg"></span>
             </div>
